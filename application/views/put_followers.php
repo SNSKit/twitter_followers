@@ -17,20 +17,11 @@
 							<td width="10"><input type="submit"	name="formSub" id="formSub" size="40" value="GO"></td>
 							</td>
 						</tr>
-						<?php if(!empty($data)){ ?>
-						<tr>
-						<?php 
-						$scr_name =  $data['scr_name'];
-						$handle_foll_num =  $data['handle_foll_num']; 
-						?>
-						<h2><?php $scr_name?> has <?php $handle_foll_num?> followers!</h2>
-						</tr> 
-						<?php } ?>
-						
-						
 		</table>
 	</form>
-	<div style="width: 600px;"> 
+	<div style="width: 600px;">	
+	<br>
+	<h2>Your Followers!</h2>
 		<?php
 		if(!empty($data)){
 			$i = 0; 
